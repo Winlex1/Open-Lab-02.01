@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_02._01
 {
@@ -6,12 +6,13 @@ namespace Open_Lab_02._01
     {
         public double[] Create5Numbers()
         {
-            throw new NotImplementedException();
+            double[] number = {1.2, 23.3, 2.2, 568.21, 123.3};
+            return number;
         }
 
         public double GetSecond(double[] numbers)
         {
-            throw new NotImplementedException();
+            return numbers[1];
         }
     }
 }
